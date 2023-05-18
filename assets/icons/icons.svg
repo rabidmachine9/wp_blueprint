@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+  <symbol id="star" viewBox="0 0 100 100">
+    <style>
+      .star { fill: #ffcc00; }
+    </style>
+    <polygon class="star" points="50 5 61.77 36.82 95.66 35.52 68.81 57.18 79.21 90.48 50 72.73 20.79 90.48 31.19 57.18 4.34 35.52 38.23 36.82" />
+  </symbol>
+</svg>
