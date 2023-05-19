@@ -1,5 +1,6 @@
 const path = require('path');
-const TerserPlugin = require('terser-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const TerserWebpackPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -8,7 +9,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'bundle'),
   },
   module: {
     rules: [
@@ -20,19 +21,26 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          'style-loader',
+          MiniCssExtractPlugin.loader,
           'css-loader',
           'sass-loader',
         ],
       },
     ],
   },
+  
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: '[name].bundle.css',
+    }),
+  ],
   optimization: {
-    minimize: true,
-    minimizer: [new TerserPlugin()],
+    minimizer: [
+      new TerserWebpackPlugin(),
+    ],
   },
   // Other webpack configuration options...
 };

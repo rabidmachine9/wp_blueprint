@@ -1,2 +1,0 @@
-/*! For license information please see app.bundle.js.LICENSE.txt */
-(()=>{"use strict";var __webpack_modules__={"./src/index.ts":()=>{eval("\r\n\n\n//# sourceURL=webpack://Blueprint/./src/index.ts?")}},__webpack_exports__={};__webpack_modules__["./src/index.ts"]()})();

@@ -1,0 +1,23 @@
+.base-text{
+    font-family:$base-font;
+    font-size:$base-font-size-mob;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+.subscript{
+    font-family:$base-font;
+    font-size:$subscript-font-size-mob;
+    font-weight: normal;
+}
+
+
+@media (min-width: $small-screen) {
+    .base-text{
+        font-size:$base-font-size;
+    }
+    .subscript{
+        font-size:$subscript-font-size;
+    }
+}
+

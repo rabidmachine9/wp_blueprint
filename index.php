@@ -12,6 +12,10 @@
     </main><!-- .site-main -->
     <?php do_action('after_site_main'); ?>
 </div><!-- .content-area -->
+<div class="base-text">
+    <?php echo "Index page is used as a showcase for basic functionalities, here is how you load an svg to the code"; ?>
+</div>
+
 <?php echo display_svg_icon('star'); ?>
 
 <?php get_footer(); ?>

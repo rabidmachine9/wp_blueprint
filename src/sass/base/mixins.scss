@@ -1,0 +1,3 @@
+@function pad($val) {
+    @return $val * $base-padding;
+}

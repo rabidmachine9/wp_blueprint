@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'NanumMyeongjo';
+    src: url('NanumMyeongjo.eot');
+    src: url('NanumMyeongjo.eot?#iefix') format('embedded-opentype'),
+        url('NanumMyeongjo.woff2') format('woff2'),
+        url('NanumMyeongjo.woff') format('woff'),
+        url('NanumMyeongjo.ttf') format('truetype'),
+        url('NanumMyeongjo.svg#NanumMyeongjo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumMyeongjo';
+    src: url('NanumMyeongjoBold.eot');
+    src: url('NanumMyeongjoBold.eot?#iefix') format('embedded-opentype'),
+        url('NanumMyeongjoBold.woff2') format('woff2'),
+        url('NanumMyeongjoBold.woff') format('woff'),
+        url('NanumMyeongjoBold.ttf') format('truetype'),
+        url('NanumMyeongjoBold.svg#NanumMyeongjoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumMyeongjoExtraBold';
+    src: url('NanumMyeongjoExtraBold.eot');
+    src: url('NanumMyeongjoExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('NanumMyeongjoExtraBold.woff2') format('woff2'),
+        url('NanumMyeongjoExtraBold.woff') format('woff'),
+        url('NanumMyeongjoExtraBold.ttf') format('truetype'),
+        url('NanumMyeongjoExtraBold.svg#NanumMyeongjoExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
