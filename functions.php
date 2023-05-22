@@ -8,6 +8,8 @@
 
 //loading js and css
 require get_template_directory() . '/inc/config/scripts.php';
+require get_template_directory() . '/inc/config/setup.php';
+require get_template_directory() . '/inc/config/metabox.php';
 
 
 
@@ -15,3 +17,5 @@ require get_template_directory() . '/inc/config/scripts.php';
 require get_template_directory() . '/inc/generic/helper.php';
 //hooking stuff into the view
 require get_template_directory() . '/inc/generic/hooks.php';
+
+
